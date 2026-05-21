@@ -1,0 +1,11 @@
+=== Hasil Evaluasi Model ARIMA — Prediksi Harga Emas ===
+
+Orde ARIMA          : (5, 1, 0)
+Periode Latih       : 2020-01-02 s.d. 2026-05-06
+Periode Uji         : 2026-05-07 s.d. 2026-05-20
+
+MSE  (Mean Squared Error)      : 7959.2332
+RMSE (Root Mean Squared Error) : 89.2145 USD
+MAE  (Mean Absolute Error)     : 71.5075 USD
+Dstat (Akurasi Arah)           : 55.56%
+Arah yang Benar                : 5/9
