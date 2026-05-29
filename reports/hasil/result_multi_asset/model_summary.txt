@@ -1,0 +1,21 @@
+RINGKASAN MODEL ARIMA MULTI-ASET
+Tanggal Analisis : 2026-05-22 14:36
+ARIMA d=1, grid p,q=[0-3], trend=[n,t]
+
+PARAMETER TERBAIK (per aset)
+============================================================
+Emas         order=[0, 1, 3] trend=t  AIC=16532.6 BIC=16559.65
+Bitcoin      order=[0, 1, 3] trend=n  AIC=40543.97 BIC=40566.96
+Minyak       order=[2, 1, 3] trend=n  AIC=7882.73 BIC=7915.18
+Apple        order=[1, 1, 3] trend=t  AIC=8327.57 BIC=8360.03
+Microsoft    order=[1, 1, 3] trend=n  AIC=10188.42 BIC=10215.46
+Ethereum     order=[3, 1, 3] trend=n  AIC=27775.94 BIC=27816.18
+
+PREDIKSI 30 HARI KE DEPAN
+============================================================
+Emas         Sekarang=4539.80  D+30=4588.46  CI=[4230.54, 4946.37]
+Bitcoin      Sekarang=77457.77  D+30=77426.47  CI=[61858.23, 92994.72]
+Minyak       Sekarang=96.35  D+30=98.44  CI=[79.72, 117.17]
+Apple        Sekarang=304.99  D+30=308.11  CI=[278.17, 338.05]
+Microsoft    Sekarang=419.09  D+30=419.12  CI=[365.42, 472.82]
+Ethereum     Sekarang=2126.98  D+30=2126.49  CI=[1121.28, 3131.69]

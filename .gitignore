@@ -22,3 +22,10 @@ Thumbs.db
 
 # Local config and notes
 CLAUDE.md
+
+# Claude Code memory (private)
+.claude/
+
+# Downloaded raw data (regenerasi dengan pipeline_01 & pipeline_03)
+reports/hasil/result_multi_asset/data/
+reports/hasil/result_multi_asset/pipeline_meta.csv
